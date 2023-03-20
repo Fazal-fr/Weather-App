@@ -85,6 +85,7 @@ int permisisonCode = 555;
             thepermissions[0]= android.Manifest.permission.ACCESS_FINE_LOCATION;
             this.requestPermissions(thepermissions,permisisonCode);
             return;
+
         }
         LocationManager lm;
         lm = (LocationManager) getSystemService(LOCATION_SERVICE);
